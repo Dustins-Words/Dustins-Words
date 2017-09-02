@@ -594,6 +594,37 @@ open-source
 }
 /*========================
 
+open-source
+
+========================*/
+#ASV { 
+    background: url('../img/about1/ASV-bg.jpg') no-repeat center center; 
+    background-color: #fff; 
+    text-align: center; 
+    color: #fff;
+    padding: 75px 0;
+}
+
+#ASV h3 a {  
+    color: #fff;
+    -webkit-transition:All .2s ease;
+    -moz-transition:All .2s ease;
+    -o-transition:All .2s ease;
+}
+#ASV h3 a:hover { 
+    color: #00e4c1; 
+
+}
+#ASV h6 { 
+    /*color: #252525; */ 
+    padding-top: 30px;  
+}
+
+#ASV a {
+    color: #00e4c1; font-size: 1em;
+}
+/*========================
+
 team
 
 ========================*/

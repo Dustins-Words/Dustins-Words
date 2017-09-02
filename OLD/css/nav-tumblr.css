@@ -1,0 +1,225 @@
+/* ------------------------------------------
+  NECESSARY STYLES FOR RESPONSIVE NAV
+--------------------------------------------- */
+@media screen and (min-width: 940px) { 
+    #nav { position: fixed !important; }
+}
+#nav {
+    position: relative;
+    z-index: 5;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    -moz-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    box-shadow: 0px 0px 25px 4px #C3C3C3;
+}
+/* ------------------------------------------
+  NECESSARY STYLES FOR RESPONSIVE NAV
+--------------------------------------------- */
+@media screen and (min-width: 940px) { 
+    #nav { position: fixed !important; }
+}
+#nav {
+    position: relative;
+    z-index: 5;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    -moz-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    box-shadow: 0px 0px 25px 4px #C3C3C3;
+}
+
+#navActive {
+    /* border-bottom: 2px solid #508dd0;
+    color: #508dd0;
+    padding: 15px 1em 5px 1em; */
+    color: white;
+    background-color: #508dd0;
+}
+
+.nav-collapse ul {
+  /*margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;*/
+}
+
+.nav-collapse li {
+  /*width: 100%;
+  display: block;*/
+  display: inline;
+  padding: 0 20px;
+}
+
+.js .nav-collapse {
+  /*clip: rect(0 0 0 0);*/
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened { max-height: 9999px; position: fixed !important; }
+
+@media screen and (min-width: 940px) {
+  .js .nav-collapse { position: relative; max-height: none; }
+  #nav-toggle { display: none; }
+}
+
+
+/* ------------------------------------------
+  DEMO PAGE'S STYLES
+--------------------------------------------- 
+body, div,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
+fieldset, form, label, legend, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section,
+summary, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+*/
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/*body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #37302a;
+  background: #fff;
+  font: normal 100%/1.4 sans-serif;
+}
+
+.nav-collapse,
+.nav-collapse * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+
+.nav-collapse,
+.nav-collapse ul {
+  /*list-style: none;
+  width: 100%;
+  float: left;*/
+  margin: 0 auto; 
+  display: table;
+}
+
+.nav-collapse li {
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 940px) {
+  .nav-collapse li {
+    width: 25%;
+    /**width: 24.9%; /* IE7 Hack */
+    /*_width: 19%; /* IE6 Hack */
+  }
+}
+
+@media screen and (max-width: 940px) {
+    .nav-collapse,
+    .nav-collapse ul {
+        /*list-style: none;
+        width: 100%;
+        float: left;*/
+        margin: 0; 
+    }
+}
+
+
+.nav-collapse a {
+  text-decoration: none;
+  /*width: 100%;
+  background: #fff;
+  border-bottom: 1px solid white;*/
+  font-size: 1em;
+  padding: 0.7em 0em;
+  float: left;
+  color: #5F5F5F; 
+  text-transform: uppercase;
+  font-family: Rajdhani, Arial, serif; font-weight: 500;
+}
+
+@media screen and (max-width: 940px) { 
+  #navActive { padding: 0; margin: 10px 0; }
+}
+
+@media screen and (min-width: 940px) {
+  .nav-collapse a {
+    font-size: 1em;
+    margin: 0;
+    padding: 1em;
+    float: left;
+    text-align: center;
+    border-bottom: 0;
+    border-right: 1px solid white;
+  }
+}
+
+.nav-collapse ul ul a {
+  background: #ca3716;
+  padding-left: 2em;
+}
+
+@media screen and (min-width: 940px) {
+  .nav-collapse ul ul a {
+    display: none;
+  }
+}
+
+#nav-toggle {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 55px;
+  /*float: right;*/
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url("http://static.tumblr.com/kmod0zd/ARhnn0eda/hamburger.png") no-repeat 90% 33%;
+  border-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    -moz-box-shadow: 0px 0px 25px 4px #C3C3C3;
+    box-shadow: 0px 0px 25px 4px #C3C3C3;
+}
+
+button#nav-toggle.active { top: 150px; }
+
+
+/*@media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  #nav-toggle {
+    background-image: url("../img/hamburger/hamburger-retina.png") no-repeat 50% 33%;
+    -webkit-background-size: 100px 100px;
+    -moz-background-size: 100px 100px;
+    -o-background-size: 100px 100px;
+    background-size: 100px 100px;
+  }
+}
+*/

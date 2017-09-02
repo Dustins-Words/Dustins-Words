@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*========================
+
+avenir
+
+========================*/
+@font-face {font-family: 'AvenirLTStd-Roman';
+  src: url('../fonts/avenir/29D649_8_0.eot');
+  src: url('../fonts/avenir/29D649_8_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/avenir/29D649_8_0.woff') format('woff'),
+    url('../fonts/avenir/29D649_8_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: 'AvenirLTStd-Book';
+    src: url('../fonts/avenir/29D649_0_0.eot');
+    src: url('../fonts/avenir/29D649_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/avenir/29D649_0_0.woff') format('woff'),
+         url('../fonts/avenir/29D649_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: 'AvenirLTStd-Heavy';
+    src: url('../fonts/avenir/29D649_B_0.eot');
+    src: url('../fonts/avenir/29D649_B_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/avenir/29D649_B_0.woff') format('woff'),
+        url('../fonts/avenir/29D649_B_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*========================
+
+Neutraface
+
+========================*/
+@font-face {font-family: 'NeutrafaceText-Book';
+  src: url('../fonts/neutraface-text/NeutrafaceText-Book.otf');
+  src: url('../fonts/neutraface-text/NeutrafaceText-Book.otf') format('embedded-opentype'),
+    url('../fonts/neutraface-text/NeutrafaceText-Book.otf') format('woff'),
+    url('../fonts/neutraface-text/NeutrafaceText-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {font-family: 'NeutrafaceText-Demi';
+  src: url('../fonts/neutraface-text/NeutrafaceText-Demi.otf');
+  src: url('../fonts/neutraface-text/NeutrafaceText-Demi.otf') format('embedded-opentype'),
+    url('../fonts/neutraface-text/NeutrafaceText-Demi.otf') format('woff'),
+    url('../fonts/neutraface-text/NeutrafaceText-Demi.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*========================
+
+Crimson
+
+========================*/
+@font-face {font-family: 'CrimsonText-Italic';
+  src: url('../fonts/crimson-text/CrimsonText-Italic.ttf');
+  src: url('../fonts/crimson-text/CrimsonText-Italic.ttf') format('embedded-opentype'),
+    url('../fonts/crimson-text/CrimsonText-Italic.ttf') format('woff'),
+    url('../fonts/crimson-text/CrimsonText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

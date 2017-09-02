@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      	<meta name="keywords" content="Autism, love, brother, family, communication, Autism Speaks, accessibility, ux design, product design"/>
+      	<meta name="author" content="Matt Reamer"/>
+      	<meta property="og:title" content="Support Dustin’s Words on Indiegogo">
+		<meta property="og:image" content="http://i1264.photobucket.com/albums/jj493/reamermd/Exploaded_zpsawkcwynj.jpg">
+		<meta property="og:description" content="Dustin’s Words is an invention that helps people who can’t speak communicate their needs at the push of a button.">
+      	<meta name="twitter:card" content="photo"/>
+		<meta name="twitter:site" content="@dustinswords"/>
+		<meta name="twitter:title" content="Support Dustin’s Words on Indiegogo"/>
+		<meta name="twitter:image" content="http://i1264.photobucket.com/albums/jj493/reamermd/Exploaded_zpsawkcwynj.jpg"/>
+		<meta name="twitter:url" content="www.dustinswords.com"/>
+      	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+		<title>Dustin's Words - An AAC device I built my brother to help him communicate with my parents.</title>
+
+		<!-- <css> -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/modernizr.js"></script>
+
+		<!-- Hotjar Tracking Code for dustinswords.com -->
+		<script>
+		    (function(f,b){
+		        var c;
+		        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+		        f._hjSettings={hjid:27681, hjsv:3};
+		        c=b.createElement("script");c.async=1;
+		        c.src="http://static.hotjar.com/c/hotjar-";
+		        b.getElementsByTagName("head")[0].appendChild(c); 
+		    })(window,document);
+		</script>
+
+	</head>
+ 
+	<body>
+        <section id="contact">
+        	<div id="nav">
+				<div id="nav-center">
+			      	<tr>
+			        	<td><a href="#" aria-label="You are currently on this overview page that describes the project at a high level.">overview</a></td>
+			        	<td><a href="about.html" aria-label="To learn more background and purpose of our non-profit initiative click here.">about</a></td>
+			        	<td><a href="http://dustinswords.tumblr.com" target="_blank" aria-label="To view out blog and most up-to-date activity, click this link. It will open our blog in a new tab.">blog</a></td>
+			        	<td><a href="#" aria-label="Opens up a modal overlay in where you can fill in a view form fields so we can better contact you">Contact</a></td>
+			      	</tr>
+			    </div><!-- end nav-center -->
+    		</div><!-- end nav -->
+
+        	<div class="contact">
+		        <h3>Contact Us!</h3>
+				<form id="contact-content" action="//dustinswords.us10.list-manage.com/subscribe/post?u=265df7d89342cdafa7867c4fd&amp;id=358dd2175b" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate aria-label="A more detailed contact form">
+
+					<input id="input-1" type="text" placeholder="Name" value="" name="FNAME" required>
+
+					<input type="email" placeholder="email address" value="" name="EMAIL" required>
+
+					<select name="MMERGE4" class="" required>
+						<option value="" disabled selected>SIGN UP TO STAY INFORMED</option>
+						<option value="I know someone who could benefit from Dustin’s Words.">I know someone who could benefit from Dustin’s Words.</option>
+						<option value="I’d like to share my family’s story.">I’d like to share my family’s story.</option>
+						<option value="I’m an individual interested in helping.">I’m an individual interested in helping.</option>
+						<option value="I’m a company interested in helping.">I’m a company interested in helping.</option>
+						<option value="I’d like to stay informed.">I’d like to stay informed.</option>
+					</select>
+
+					<input type="text" placeholder="Message" value="" name="MESSAGE" class="" id="message">
+
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    
+
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;">
+				    	<input type="text" name="b_265df7d89342cdafa7867c4fd_358dd2175b" tabindex="-1" value="">
+				    </div>
+				    
+				    <button class="contact-us-button" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+				</form>
+		    </div>
+        </section>
+
+		<!-- <javascript> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
+	    <!-- Google Analytics -->
+	    <script>
+	         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	         
+	         ga('create', 'UA-38568235-3', 'auto');
+	         ga('send', 'pageview');
+      	</script>
+
+		<!-- Contact Form Validation -->
+      	<script>         
+        $(document).ready(function() {
+           	var form = $('#input-container'); // contact form
+           	var submit = $('#submit');  // submit button
+           	var alert = $('.alert'); // alert div for show alert message
+         
+           	// form submit event
+           	form.on('submit', function(e) {
+            e.preventDefault(); // prevent default form submit
+         
+            $.ajax({
+               	url: 'index.php', // form action url
+               	type: 'POST', // form submit method get/post
+               	dataType: 'html', // request type html/json/xml
+               	data: form.serialize(), // serialize form data 
+               		beforeSend: function() {
+                 		alert.fadeOut();
+                 		submit.html('Sending....'); // change submit button text
+               		},
+	               success: function(data) {
+	                 	alert.html(data).fadeIn(); // fade in response data
+	                 	form.trigger('reset'); // reset form
+	                 	submit.html('Send Email'); // reset submit button text
+	              		//   setTimeout(alert.html(data);, 3000);
+               		},
+               			error: function(e) {
+                 			console.log(e)
+               			}
+             		});
+            	});
+          	}); 
+      	</script>
+        <!-- End Contact Form Validation -->
+	</body>
+</html>
+
