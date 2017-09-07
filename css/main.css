@@ -603,6 +603,10 @@ open-source
     text-align: center; 
     color: #fff;
     padding: 75px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #ASV h3 a {  
